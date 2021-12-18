@@ -29,6 +29,16 @@ namespace A02_zmienne{
             Console.WriteLine("float-max: "+ float.MaxValue);
             Console.WriteLine("double-min: " + double.MinValue);
             Console.WriteLine("double-max: " + double.MaxValue);
+            //zmienne znakowe
+            char zm12 = '#'; Console.WriteLine(zm12);
+            string zm13 = "To jest napis."; Console.WriteLine(zm13);
+            //zmenna tablicowa
+            int[] zm14 = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+            Console.WriteLine(zm14[5]);
+            for(int i=0; i<zm14.Length; i++)
+            {
+                Console.Write(zm14[i] + " ");
+            }
         }
     }
 }

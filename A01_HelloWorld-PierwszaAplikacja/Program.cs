@@ -12,7 +12,12 @@ namespace A01_HelloWorld{
             Console.WriteLine("Podaj swoje imie");
             string imie;
             imie = Console.In.ReadLine();
-            Console.WriteLine("Podałeś/łaś swoje imie: " + imie);
+            if(imie.Length == 0)
+            {
+                Console.Error.WriteLine("Nie wprowadzono żadnego imienia!!!");
+                return;
+            }
+            Console.WriteLine("Podałeś/łaś swoje imie: " + imie + " o długości "+ "Podałeś/łaś swoje imie: " + imie.Length);
             /* cout << "Podałeś/łaś swoje imie: " << imie; */
         }
     }

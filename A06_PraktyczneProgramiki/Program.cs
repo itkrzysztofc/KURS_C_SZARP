@@ -58,6 +58,20 @@ namespace A06_Programiki
                 } while (los2 != moja);
                 Console.WriteLine("Wylosowana liczba to: " + los2 + " została odgadnięta za: " + (licznik - 1) + " razem");
             }
+            ////// 3. Tablica pozycji liczb binarnych
+            {
+                Console.Write("Podaj długość tablicy: ");
+                int n,j = 1;
+                n = int.Parse(Console.ReadLine());
+                int[] tab = new int[n];
+                Console.Write("1 ");
+                for (int i = 0;i < n; i++)
+                {
+                    tab[i] = j << 1;
+                    j=tab[i];
+                    Console.Write(tab[i]+ " ");
+                }
+            }
         }
     }
 }

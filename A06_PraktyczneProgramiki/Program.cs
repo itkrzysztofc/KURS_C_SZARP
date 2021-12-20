@@ -18,7 +18,7 @@ namespace A06_Programiki
                 x = Console.ReadLine();
                 Console.Write("Y = ");
                 y = Console.ReadLine();
-                Console.Write("Podaj symbol z lawiatury: ");
+                Console.Write("Podaj symbol z klawiatury: ");
                 symbol = Console.ReadLine();
                 int x_i = int.Parse(x);
                 int y_i = int.Parse(y);
@@ -31,6 +31,7 @@ namespace A06_Programiki
                         Console.Write("\n");
                     }
                 }
+                Console.Clear();
             }
             ///////2. Program zgadywanka
             //losowanie liczby

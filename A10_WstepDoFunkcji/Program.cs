@@ -20,6 +20,9 @@ namespace A10_WstepDoFunkcji
             iloczyn(2);
             iloczyn(7.1,3.7);
             iloczyn(2,7,8.1);
+            Dzielenie();
+            Dzielenie(4.1f);
+            Dzielenie(4.1f,7.6f);
         }
         //funkcja bez argumentów
         static void Powitanie() // to jest funcja
@@ -45,6 +48,10 @@ namespace A10_WstepDoFunkcji
         {
             double wynik = x * y * z;
             Console.WriteLine("Mnożenie = " + wynik);
+        }
+        static void Dzielenie(float a = 1f, float b = 1f)
+        {
+            Console.WriteLine("Wynik dzielenie liczb: " + a + " / " + b + " = " + (a / b));
         }
     }
 }

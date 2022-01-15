@@ -92,6 +92,9 @@ namespace A09_Tablice_wielowymiarowe
             {
                 Console.Write(tab6[i] + " ");
             }
+            //Tablica 2D sortowana
+            string[] tab7 = { V, X, Y, Z };
+            Array.Sort(tab7);// sortuje tylko liczby
         }
     }
 }

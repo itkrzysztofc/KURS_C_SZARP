@@ -8,7 +8,7 @@ namespace A07_Skok_Break_continue
     {
         static void Main(string[] args)
         {
-
+            Lekcja 7
         }  
     }
 }

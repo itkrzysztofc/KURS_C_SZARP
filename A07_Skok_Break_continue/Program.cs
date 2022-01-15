@@ -1,4 +1,4 @@
-﻿// A06 Proste przykłady zastosowania wcześniejszych lekcji 
+﻿// A07 skoki  i kontynuacje 
 
 using System;
 
@@ -8,7 +8,7 @@ namespace A07_Skok_Break_continue
     {
         static void Main(string[] args)
         {
-            Lekcja 7
+           
         }  
     }
 }

@@ -46,7 +46,7 @@ namespace A11_FunkcjeCz2
             tab[1] = 555;
             return 0;
         }
-        static int PodajLiczbe(out int c) // nie przekazujemy do funkcji żadnej wartości int
+        static int PodajLiczbe(out int c) // nie przekazujemy do funkcji żadnej wartości int tylko zmienną
         {
             c = Dodaj(4,7);
             return c;

@@ -95,6 +95,23 @@ namespace A09_Tablice_wielowymiarowe
             //Tablica 2D sortowana
             string[] tab7 = { V, X, Y, Z };
             Array.Sort(tab7);// sortuje tylko liczby
+            Console.WriteLine(); Console.WriteLine();
+            //sortowanie tablicy złożonej
+            int[][] tab8 = new int[2][];
+            tab8[0] = new int[] { 4, 2 , 9, 5, 7, -9 };
+            Array.Sort(tab8[0]);
+            tab8[1] = new int[] { 2 , 9, 5 };
+            Array.Sort(tab8[1]);
+            for (int i = 0; i < tab8.Length; i++)
+            {
+                for (int j = 0; j < tab8[i].Length; j++)
+                {
+                    Console.Write(tab8[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+
         }
     }
 }

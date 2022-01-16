@@ -7,21 +7,27 @@ namespace A12_Obiekty_i_Klasy
     {
         static void Main(string[] args)
         {
-            //2. tworzymy obiekt
-            Osoba osoba = new Osoba();
-            //3. możemy używaż metod obiektu/właściwości klasy
-            Console.WriteLine(osoba.name);
-            Console.WriteLine(osoba.surname);
-            Console.WriteLine(osoba.age);
-            osoba.age = 91;
-            Console.WriteLine(osoba.age);
-            osoba.name = "Cristoph";
-            Console.WriteLine(osoba.name);
-            Osoba osoba2 = new Osoba();
-            Console.WriteLine(osoba2.name);
-            //użycie funkcji z klasy
-            osoba.Czlowiek();
-            //osoba.wzrost;//błąd
+            { //2. tworzymy obiekt
+                Osoba osoba = new Osoba();
+                //3. możemy używaż metod obiektu/właściwości klasy
+                Console.WriteLine(osoba.name);
+                Console.WriteLine(osoba.surname);
+                Console.WriteLine(osoba.age);
+                osoba.age = 91;
+                Console.WriteLine(osoba.age);
+                osoba.name = "Cristoph";
+                Console.WriteLine(osoba.name);
+                Osoba osoba2 = new Osoba();
+                Console.WriteLine(osoba2.name);
+                //użycie funkcji z klasy
+                osoba.Czlowiek();
+                //osoba.wzrost;//błąd
+            }
+            // c.d. dot. klasy zewn.
+            Human human = new Human();
+            Console.WriteLine(human.imie);
+            human.imie = "Ola";
+            Console.WriteLine(human.imie);
         }
         //1. tworzymy klasę
         class Osoba
@@ -37,6 +43,6 @@ namespace A12_Obiekty_i_Klasy
             }
         }
         //tu może być kolejna klasa
-        //.....
+        class Person { } //pusta klas aktóra nic nie robi
     }
 }

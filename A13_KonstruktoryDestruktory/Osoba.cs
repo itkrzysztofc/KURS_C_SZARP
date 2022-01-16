@@ -23,6 +23,6 @@ namespace A13_KonstruktoryDestruktory
             Console.WriteLine("I'm " + imie + " " + nazwisko);
         }
         //destruktor jest zawsze na koniec klasy
-        ~Osoba() { }// DESTRUKTOR usuwa obiekt z pamięci po użyciw w programie
+        ~Osoba() { Console.WriteLine("Obiekt został usunięty"); }// DESTRUKTOR usuwa obiekt z pamięci po użyciw w programie
     }
 }

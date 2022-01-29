@@ -69,7 +69,7 @@ namespace A15_OperacjeNaStringach
                 budowanyString.Append(i + " ");
             }
             tekst = budowanyString.ToString();
-            return tekst;
+            return tekst; 
         }
     }
 }

@@ -21,6 +21,8 @@ namespace A16_Kolekcje
         }
         //metoda typu boolowskiego dot. pkt.2.
         internal bool PomalujPojazd(Auto auto) { return true; }
-        internal int Cena(Auto auto) { return 1000; }
+        internal int Cena(Auto auto) { 
+            return 1000; 
+        }
     }
 }

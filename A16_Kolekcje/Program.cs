@@ -67,7 +67,15 @@ namespace A16_Kolekcje
             Console.WriteLine(lista2[3].PomalujPojazd(lista2[3]));
             System.Console.ReadLine();//oczekiwanie na <ENTER>
             Console.Clear();
-            Console.WriteLine("Brawo");
+            Console.WriteLine("Praktyczne użycie kolekcji listy - przykład");
+            Console.WriteLine("MENU:\n======================");
+            Console.WriteLine("1. Dodaj element listy");
+            Console.WriteLine("2. Usuń element listy");
+            Console.WriteLine("3. Pokaż listę");
+            Console.WriteLine("4. Koniec");
+            Console.WriteLine("======================");
+            System.Console.ReadLine();
+
         }
     }
 }

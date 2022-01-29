@@ -60,9 +60,14 @@ namespace A16_Kolekcje
             foreach(Auto auto in lista2)
             {
                 Console.WriteLine(auto);
-                Console.WriteLine(auto.PomalujPojazd(auto));
+                
                 Console.WriteLine(auto.Cena(auto));
             }
+            //wyświetlenie pojedyńczego elementu z listy
+            Console.WriteLine(lista2[3].PomalujPojazd(lista2[3]));
+            System.Console.ReadLine();//oczekiwanie na <ENTER>
+            Console.Clear();
+            Console.WriteLine("Brawo");
         }
     }
 }

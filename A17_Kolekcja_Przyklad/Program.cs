@@ -45,9 +45,17 @@ namespace A16_Kolekcje
                         Console.Clear();
                         break;
                     case 3: //pokazuje listę
-                        foreach (var item in lista2)
+                        int licznik = lista2.Count;
+                        if (licznik == 0)
                         {
-                            Console.WriteLine(item);
+                            Console.WriteLine("Twoja lista jest pusta.");
+                        }
+                        else
+                        {
+                            foreach (var item in lista2)
+                            {
+                                Console.WriteLine(item);
+                            }
                         }
                         System.Console.ReadLine();
                         Console.Clear();

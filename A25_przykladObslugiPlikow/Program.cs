@@ -72,3 +72,5 @@ namespace A25_przykladObslugiPlikow
         }
     }
 }
+//Zadanie do samodzielnego wykonania: 
+//wypisz tylko to co nie może być liczbą lub spacją czyli wypisz wyrazy z których nie da się zrobić liczby

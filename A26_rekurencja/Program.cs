@@ -22,7 +22,7 @@ namespace A26_rekurencja
                 sw.Close();
             }
             sw = new StreamWriter(plik, true);
-            Console.WriteLine("Plik został oitwarty do użycia");
+            Console.WriteLine("Plik został otwarty do użycia");
             Stopwatch t = new Stopwatch();
             t.Start();
             // wywołanie zdarzenia

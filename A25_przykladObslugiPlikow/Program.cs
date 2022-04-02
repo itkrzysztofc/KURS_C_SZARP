@@ -73,4 +73,4 @@ namespace A25_przykladObslugiPlikow
     }
 }
 //Zadanie do samodzielnego wykonania: 
-//wypisz tylko to co nie może być liczbą lub spacją czyli wypisz wyrazy z których nie da się zrobić liczby
+//wypisz tylko to co nie może być liczbą lub spacją czyli wypisz wyrazy z których nie da się zrobić liczby wynik zapisz do oddzielnedgo pliku o nazwie 'wynik.txt'

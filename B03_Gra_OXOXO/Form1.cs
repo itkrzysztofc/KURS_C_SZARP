@@ -35,7 +35,57 @@ namespace B03_Gra_OXOXO
 
         private void Sprawdz()
         {
-            //////dokończyć
+            if(btn1.Text != "" && btn1.Text == btn2.Text && btn1.Text == btn3.Text)
+            {
+                Wygrana();
+            }
+            else if (btn4.Text != "" && btn4.Text == btn5.Text && btn4.Text == btn6.Text)
+            {
+                Wygrana();
+            }
+            else if (btn7.Text != "" && btn7.Text == btn8.Text && btn7.Text == btn9.Text)
+            {
+                Wygrana();
+            }
+            else if (btn1.Text != "" && btn1.Text == btn4.Text && btn1.Text == btn7.Text)
+            {
+                Wygrana();
+            }
+            else if (btn2.Text != "" && btn2.Text == btn5.Text && btn2.Text == btn8.Text)
+            {
+                Wygrana();
+            }
+            else if (btn3.Text != "" && btn3.Text == btn6.Text && btn3.Text == btn9.Text)
+            {
+                Wygrana();
+            }
+            else if (btn1.Text != "" && btn1.Text == btn5.Text && btn1.Text == btn9.Text)
+            {
+                Wygrana();
+            }
+            else if (btn3.Text != "" && btn3.Text == btn5.Text && btn3.Text == btn7.Text)
+            {
+                Wygrana();
+            }
+            else if(ruch == 9)
+            {
+                MessageBox.Show("Remis", "Koniec gry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Restartuj();
+            }
+        }
+
+        private void Wygrana()
+        {
+            MessageBox.Show("Wygrywa gracz: " + (gracz1 ? "O" : "X"), "Zwycięstwo!!!", MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            if (gracz1)
+            {
+                wynikO.Text = (int.Parse(wynikO.Text)).ToString();
+            }
+            else
+            {
+                wynikX.Text = (int.Parse(wynikX.Text)).ToString();
+            }
+            Restartuj();
         }
 
         private void label2_Click(object sender, EventArgs e)

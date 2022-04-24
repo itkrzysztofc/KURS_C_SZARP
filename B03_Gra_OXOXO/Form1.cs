@@ -79,11 +79,11 @@ namespace B03_Gra_OXOXO
             MessageBox.Show("Wygrywa gracz: " + (gracz1 ? "O" : "X"), "Zwycięstwo!!!", MessageBoxButtons.OK,MessageBoxIcon.Warning);
             if (gracz1)
             {
-                wynikO.Text = (int.Parse(wynikO.Text)).ToString();
+                wynikO.Text = (int.Parse(wynikO.Text) + 1).ToString();
             }
             else
             {
-                wynikX.Text = (int.Parse(wynikX.Text)).ToString();
+                wynikX.Text = (int.Parse(wynikX.Text) + 1).ToString();
             }
             Restartuj();
         }
